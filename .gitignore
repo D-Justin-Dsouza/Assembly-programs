@@ -7,3 +7,6 @@
 # Do not ignore .asm files
 !*.asm
 
+#dont ignore folders
+!*/
+!*/*.asm
