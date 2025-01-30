@@ -3,6 +3,7 @@ section .data
     sum_msg db "The sum is: ", 0
     endl db 10, 0
 
+
 section .bss
     num1 resb 4
     num2 resb 4
