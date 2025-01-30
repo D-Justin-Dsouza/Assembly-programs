@@ -126,7 +126,6 @@ _start:
     mov bl, [number2]
     div bl    ; AL = quotient, AH = remainder
 
-
     add al, '0'   ; Convert quotient to ASCII
     mov [output], al
 
