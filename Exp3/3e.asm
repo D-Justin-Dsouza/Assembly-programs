@@ -17,6 +17,7 @@ _start:
     mov edx, 17    
     int 80h
 
+
     mov eax, 3      
     mov ebx, 0    
     mov ecx, num_input  

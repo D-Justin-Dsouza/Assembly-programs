@@ -15,6 +15,7 @@ section .data
     newline db 10, 0
     space db " ", 0
 
+
 section .bss
     length resb 10
     width resb 10

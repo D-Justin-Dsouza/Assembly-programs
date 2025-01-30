@@ -10,6 +10,7 @@ section .bss
 section .text
     global _start
 
+
 _start:
     ; Print the message
     mov eax, 4          ; sys_write
