@@ -27,6 +27,8 @@ _start:
     call print_stack
     call pop
     call print_stack
+    call pop
+    call print_stack
 
     ; Exit program
     mov eax, 1          ; sys_exit
